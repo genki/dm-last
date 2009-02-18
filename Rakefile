@@ -6,13 +6,13 @@ require 'merb-core/tasks/merb'
 
 GEM_NAME = "dm-last"
 GEM_VERSION = "0.0.1"
-AUTHOR = "Your Name"
-EMAIL = "Your Email"
+AUTHOR = "Genki Takiuchi"
+EMAIL = "genki@s21g.com"
 HOMEPAGE = "http://merbivore.com/"
-SUMMARY = "Merb plugin that provides ..."
+SUMMARY = "DataMapper plugin that provides a short hand for Model.all.last as Model.last"
 
 spec = Gem::Specification.new do |s|
-  s.rubyforge_project = 'merb'
+  s.rubyforge_project = 'asakurarb'
   s.name = GEM_NAME
   s.version = GEM_VERSION
   s.platform = Gem::Platform::RUBY

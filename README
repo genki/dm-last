@@ -1,4 +1,5 @@
 dm-last
 =======
 
-A plugin for the Merb framework that provides ...
+A plugin for the DataMapper framework that provides a short-hand for
+Model.all.last as Model.last.
